@@ -80,7 +80,7 @@ nav ul li a:hover{
 }
 
 .section-hero{
-    background-image: url(../img/header-background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),url(../img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     /* display: flex;
@@ -88,7 +88,9 @@ nav ul li a:hover{
     align-items: center; */
     color: #fff;
     text-align: center;
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
+      /* clip-path: ellipse(130vw 100vw at 50vw 100vw); */
+
     position: relative;
 }
 
@@ -96,7 +98,7 @@ nav ul li a:hover{
 
 .main-message{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -124,10 +126,12 @@ nav ul li a:hover{
 }
 
 .section-about{
-    background-color: #2B2B2B;
-    padding: 25rem 0;
+    /* background-color: #2B2B2B; */
+    background-color: #000;
+    /* padding: 25rem 0; */
+    padding: 15rem 0;
     display: inline-block;
-    margin-top: -20vh;
+    /* margin-top: -20vh; */
     color: #fff;
 }
 .about{
@@ -198,21 +202,22 @@ nav ul li a:hover{
 .section-skills{
     background-color: #000;
     color: #fff;
-    padding: 20rem 0;
-    transform: skewY(-5deg);
+    /* padding: 20rem 0; */
+    padding: 15rem 0;
+    /* transform: skewY(-5deg);
     -webkit-transform: skewY(-5deg);
     -moz-transform: skewY(-5deg);
     -ms-transform: skewY(-5deg);
     -o-transform: skewY(-5deg);
-    margin-top: -9rem;
+    margin-top: -9rem; */
 }
 
 .section-skills > *{
-    transform: skewY(5deg);
+    /* transform: skewY(5deg);
     -webkit-transform: skewY(5deg);
     -moz-transform: skewY(5deg);
     -ms-transform: skewY(5deg);
-    -o-transform: skewY(5deg);
+    -o-transform: skewY(5deg); */
 }
 
 .skills__heading, .projects__heading{
@@ -304,11 +309,11 @@ nav ul li a:hover{
 .section-projects{
     background-color: #000;
     color: #fff;
-    padding: 14rem 0;
-    margin-top: -7rem;
-    z-index: 2;
-    position: relative;
-    border-top: 1px solid #222;
+    padding: 15rem 0;
+    /* margin-top: -7rem; */
+    /* z-index: 2; */
+    /* position: relative; */
+    /* border-top: 1px solid #222; */
 }
 
 .projects{
@@ -345,6 +350,7 @@ nav ul li a:hover{
     opacity: 0;
     transition: .3s;
     font-size: 1.4rem;
+    color: #fff;
 }
 
 .project:hover .project__info{
@@ -361,6 +367,7 @@ nav ul li a:hover{
     display: inline-block;
     margin-top: 2rem;
 }
+
 
 /* 
 .skills {

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@
         <div class="container">
             <nav>
                 <div class="logo"><ion-icon name="code-outline"></ion-icon></div>
-                <ul>
+                <ul class="navigation-links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -24,6 +25,11 @@
                 <div class="social-links">
                     <ion-icon name="logo-linkedin" class="social-logo"></ion-icon>
                     <ion-icon name="logo-github" class="social-logo"></ion-icon>
+                </div>
+                <div class="hamburger-menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
                 </div>
             </nav>
         </div>
@@ -56,146 +62,149 @@
                                 <p>Rami.ghazzawiabed@gmail.com</p>
                             </div>
                             <div class="cv-button">
-                                <a href="#">Download CV</a>
+                                <a href="cv.pdf" download="cv.pdf">Download CV</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-       
+
+        <section class="section-education">
+            <div class="container">
+                <h2 class="education__heading" data-aos="fade-up">Education</h2>
+                <div class="education" data-aos="fade-right">
+                    <div class="education__card">
+                        <h3 class="education__year">2020-2024</h3>
+                        <h3 class="education__major">Bachelor's Degree of C.I.S</h3>
+                        <h4 class="education__name">Tafila Technical university</h4>
+                        <p class="education__description">My passion for web development was nurtured during my time at Tafila Technical University, where I pursued a Bachelor's Degree in Computer Information Systems. I immersed myself in both front-end and back-end courses, gaining a well-rounded understanding of full-stack development. I have a particular interest in Python, which I've used in various projects and assignments. This comprehensive education has equipped me with the skills to create and manage robust, user-friendly web applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section-skills" id="skills">
             <div class="container">
                 <h2 class="skills__heading" data-aos="fade-up">My Skills</h2>
-                <div class="skills" data-aos="fade-right" data-aos-delay="300" dta-aos-duration="500">
-                    <div>
-                        <div class="skills__name skills__name--1">
+                <div class="skills" data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">
+                    <div class="skill-card">
+                        <div class="skill-card__content">
                             <h3>HTML5</h3>
-                            <h3>90%</h3>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress-bar__value  progress-bar__value--1"></div>
                         </div>
                     </div>
-                    <div>
-                        <div class="skills__name skills__name--2">
+                    <div class="skill-card">
+                        <div class="skill-card__content">
                             <h3>CSS3</h3>
-                            <h3>80%</h3>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress-bar__value  progress-bar__value--2"></div>
                         </div>
                     </div>
-                    <div>
-                        <div class="skills__name skills__name--3">
+                    <div class="skill-card">
+                        <div class="skill-card__content">
                             <h3>JavaScript</h3>
-                            <h3>70%</h3>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress-bar__value  progress-bar__value--3"></div>
                         </div>
                     </div>
-                    <div>
-                        <div class="skills__name skills__name--4">
+                    <div class="skill-card">
+                        <div class="skill-card__content">
                             <h3>PHP</h3>
-                            <h3>60%</h3>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress-bar__value progress-bar__value--4"></div>
                         </div>
                     </div>
-                    <div>
-                        <div class="skills__name skills__name--5">
-                            <h3>My Sql</h3>
-                            <h3>50%</h3>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress-bar__value  progress-bar__value--5"></div>
+                    <div class="skill-card">
+                        <div class="skill-card__content">
+                            <h3>MySQL</h3>
                         </div>
                     </div>
-                    <div>
-                    <div class="skills__name skills__name--6">
-                        <h3>Sass</h3>
-                        <h3>60%</h3>
+                    <div class="skill-card">
+                        <div class="skill-card__content">
+                            <h3>Sass</h3>
+                        </div>
                     </div>
-                    <div class="progress-bar">
-                        <div class="progress-bar__value  progress-bar__value--6"></div>
-                    </div>
-                </div>
-                </div>
-                 
                 </div>
             </div>
         </section>
-       <section class="section-projects" id="projects">
+
+        <section class="section-projects" id="projects">
             <div class="container">
-                <h2 class="projects__heading" data-aos="fade-up">My Projects</h2>
+                <h2 class="projects__heading" data-aos="fade-right">My Projects</h2>
                 <div class="projects">
-                    <div class="project" data-aos="fade-up">
-                        <a href="#">
-                            <img src="img/project1.png" alt="">
-                            <div class="project__info">
-                                <h3>Project 1</h3>
-                                <div class="tags">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>Sass</span>
-                                </div>
+                    <div class="project" data-aos="fade-up" data-aos-delay="300">
+                        <img src="img/project1.png" alt="">
+                        <div class="project__info">
+                            <h3>Natours</h3>
+                            <h4>I created Natours, designed by Jonas Schmedtmann, to promote eco-friendly travel. It features beautiful images, destination info, tour packages, traveler reviews, and easy booking in a sleek, user-friendly interface.</h4>
+                            <div class="tags">
+                                <span class="html">HTML</span>
+                                <span class="css">CSS</span>
+                                <span class="sass">Sass</span>
                             </div>
-                        </a>
+                            <div class="live">
+                                <span><a href="https://ramighazzawi2002.github.io/Natours/"><ion-icon name="pulse-outline" class="live-icon"></ion-icon>Live</a></span>
+                                <span><a href="https://github.com/ramighazzawi2002/Natours"><ion-icon name="logo-github" class="github-icon"></ion-icon>Github</a></span>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="project" data-aos="fade-up" data-aos-delay="300">
+                        <img src="img/project2.png" alt="">
+                        <div class="project__info">
+                            <h3>Omnifood</h3>
+                            <h4>I created Omnifood, designed by Jonas Schmedtmann, to revolutionize healthy eating. It offers personalized meal plans, nutritional information, user reviews, and easy subscription options in a sleek, user-friendly interface.</h4>
+                            <div class="tags">
+                                <span class="html">HTML</span>
+                                <span class="css">CSS</span>
+                            </div>  
+                            <div class="live">
+                                <span><a href="https://ramighazzawi2002.github.io/omnifood/"><ion-icon name="pulse-outline" class="live-icon"></ion-icon>Live</a></span>
+                                <span><a href="https://github.com/ramighazzawi2002/omnifood"><ion-icon name="logo-github" class="github-icon"></ion-icon>Github</a></span>
+                            </div>                      
+                        </div>
                     </div>
                     <div class="project" data-aos="fade-up">
-                        <a href="https://ramighazzawi2002.github.io/omnifood/">
-                            <img src="img/project2.png" alt="">
-                            <div class="project__info">
-                                <h3>Project 2</h3>
-                                <div class="tags">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                </div>                        
-                            </div>
-                        </a>
+                        <img src="img/project3.png" alt="">
+                        <div class="project__info">
+                            <h3>Youtube Channel Analyzer</h3>
+                            <h4>I created YouTube Channel Analyzer to list and calculate durations of playlists from a video URL. It allows users to combine durations for a custom viewing experience, benefiting both content creators and viewers.</h4>
+                            <div class="tags">
+                                <span class="html">HTML</span>
+                                <span class="css">CSS</span>
+                                <span class="js">JS</span>
+                            </div>   
+                            <div class="live">
+                                <span><a href="https://ramighazzawi2002.github.io/YouTube-Playlist-Analyzer/"><ion-icon name="pulse-outline" class="live-icon"></ion-icon>Live</a></span>
+                                <span><a href="https://github.com/ramighazzawi2002/YouTube-Playlist-Analyzer"><ion-icon name="logo-github" class="github-icon"></ion-icon>Github</a></span>
+                            </div> 
+                        </div>
                     </div>
                     <div class="project" data-aos="fade-up">
-                        <a href="https://ramighazzawi2002.github.io/YouTube-Playlist-Analyzer/">
-                            <img src="img/project3.png" alt="">
-                            <div class="project__info">
-                                <h3>Project 3</h3>
-                                <div class="tags">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>JS</span>
-                                </div>   
+                        <img src="img/project4.png" alt="">
+                        <div class="project__info">
+                            <h3>FAQ accordion page</h3>
+                            <h4>A responsive FAQ accordion page built with HTML5, CSS3, and JavaScript as part of a Frontend Mentor challenge. Features an interactive FAQ section with a fully responsive design.</h4>
+                            <div class="tags">
+                                <span class="html">HTML</span>
+                                <span class="css">CSS</span>
+                                <span class="js">JS</span>
                             </div>
-                        </a>
+                            <div class="live">
+                                <span><a href="https://ramighazzawi2002.github.io/FAQ-Accordion-Mentorship/"><ion-icon name="pulse-outline" class="live-icon"></ion-icon>Live</a></span>
+                                <span><a href="https://github.com/ramighazzawi2002/FAQ-Accordion-Mentorship"><ion-icon name="logo-github" class="github-icon"></ion-icon>Github</a></span>
+                            </div> 
+                        </div>
                     </div>
                     <div class="project" data-aos="fade-up">
-                        <a href="https://ramighazzawi2002.github.io/FAQ-Accordion-Mentorship/">
-                            <img src="img/project4.png" alt="">
-                            <div class="project__info">
-                                <h3>Project 4</h3>
-                                <div class="tags">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>JS</span>
-                                </div>
+                        <img src="img/project5.png" alt="">
+                        <div class="project__info">
+                            <h3>Blog Preview Card</h3>
+                            <h4>This is a simple project that demonstrates the use of HTML and CSS to create a blog preview card.</h4>
+                            <div class="tags">
+                                <span class="html">HTML</span>
+                                <span class="css">CSS</span>
                             </div>
-                        </a>
-                    </div>
-                    <div class="project" data-aos="fade-up">
-                        <a href="https://ramighazzawi2002.github.io/Blog-Preview-Card-Template/">
-                            <img src="img/project5.png" alt="">
-                            <div class="project__info">
-                                <h3>Project 5</h3>
-                                <div class="tags">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                </div>
-                            </div>
-                        </a>
+                            <div class="live">
+                                <span><a href="https://ramighazzawi2002.github.io/Blog-Preview-Card-Template/"><ion-icon name="pulse-outline" class="live-icon"></ion-icon>Live</a></span>
+                                <span><a href="https://github.com/ramighazzawi2002/Blog-Preview-Card-Template"><ion-icon name="logo-github" class="github-icon"></ion-icon>Github</a></span>
+                            </div> 
+                        </div>
                     </div>
                 </div>
-                
             </div>
        </section>
     </main>
@@ -207,7 +216,6 @@
                     <div class="social-links__logo"><a href="tel:+962785574285" class="footer__link"><ion-icon name="call-outline"></ion-icon>+962785574285</a></div>
                     <div class="social-links__logo"><a target="_blank" href="https://www.google.com/maps/place/%D8%A7%D9%84%D8%B2%D8%B1%D9%82%D8%A7%D8%A1%E2%80%AD/@32.0522649,36.2984933,11z/data=!3m1!4b1!4m6!3m5!1s0x151b658f76dbb883:0x6dbb13eec3c7a1f1!8m2!3d32.0608187!4d36.0941795!16zL20vMDRka2Rm?entry=ttu" class="footer__link"><ion-icon name="home-outline"></ion-icon>Jordan, Zarqa</a></div>
                 </div>
-                
                 <p class="footer__copy-right">&copy; 2024 Rami Ghazzawi. All rights reserved.</p>
             </div>
         </div>
@@ -217,6 +225,13 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+        const hamburgerMenu = document.querySelector('.hamburger-menu');
+        const navigationLinks = document.querySelector('.navigation-links');
+        hamburgerMenu.addEventListener('click', () => {
+               
+            navigationLinks.classList.toggle('open');
+
+        });
     </script>
 </body>
 </html>
